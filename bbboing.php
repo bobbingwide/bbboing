@@ -4,12 +4,12 @@ Plugin Name: bbboing
 Depends: oik base plugin
 Plugin URI: http://www.oik-plugins.com/oik-plugins/bbboing
 Description: obfuscate text but leave it readable, using oik
-Version: 1.5
+Version: 1.7
 Author: bobbingwide
-Author URI: http://www.bobbingwide.com
+Author URI: http://www.oik-plugins.com/author/bobbingwide
 License: GPL2
 
-    Copyright 2012,2013 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2012-2014 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -40,16 +40,25 @@ function bbboing_init() {
  * Implement the "oik_loaded" action for bbboing
  * 
  * Now it's safe to use oik APIs to register the bbboing shortcode
+ * but it's not necessary until we actually come across a shortcode
  */
 function bbboing_oik_loaded() { 
+  //bw_add_shortcode( 'bbboing', 'bbboing_sc', oik_path( "bbboing.inc", "bbboing" ), false );
+}
+
+/**
+ * Implement the "oik_add_shortcodes" action for bbboing
+ * 
+ */
+function bbboing_oik_add_shortcodes() { 
   bw_add_shortcode( 'bbboing', 'bbboing_sc', oik_path( "bbboing.inc", "bbboing" ), false );
 }
 
 /**
  * Dependency checking for bbboing
  *
- * bbboing is now dependent upon oik version 2.1-alpha or higher and uses the new oik-activation code
- * 
+ * bbboing version 1.7 dependent upon oik version 2.2 or higher
+ * bbboing version 1.6 dependent upon oik version 2.1-alpha or higher and uses the new oik-activation code
  * bbboing version 1.2 was dependent upon oik version 1.11
  * 
  */ 
@@ -57,11 +66,13 @@ function bbboing_activation() {
   static $plugin_basename = null;
   if ( !$plugin_basename ) {
     $plugin_basename = plugin_basename(__FILE__);
-    add_action( "after_plugin_row_${plugin_basename}", __FUNCTION__ );   
-    require_once( "admin/oik-activation.php" );
+    add_action( "after_plugin_row_bbboing/bbboing.php", "bbboing_activation" );  
+    if ( !function_exists( "oik_plugin_lazy_activation" ) ) { 
+      require_once( "admin/oik-activation.php" );
+    }  
   }  
-  $depends = "oik:2.1-alpha";
-  bw_backtrace();
+  $depends = "oik:2.2";
+  //bw_backtrace();
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }
 
@@ -71,6 +82,7 @@ function bbboing_activation() {
 function bbboing_plugin_loaded() {
   add_action( "init", "bbboing_init" );
   add_action( "oik_loaded", "bbboing_oik_loaded" );
+  add_action( "oik_add_shortcodes", "bbboing_oik_add_shortcodes" );
   add_action( "admin_notices", "bbboing_activation" );
 }
 

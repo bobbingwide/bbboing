@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012
+<?php // (C) Copyright Bobbing Wide 2012, 2014
 
 if ( function_exists( "oik_plugin_lazy_activation" ) ) {
  // It's already defined so we don't need this lot
