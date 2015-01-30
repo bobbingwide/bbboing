@@ -329,9 +329,10 @@ function bbboing__help( ) {
 
 /**
  * Syntax for bbboing
+ * 
  */
 function bbboing__syntax( ) {
-  $syntax = array( "text" => bw_skv( "seed", "text", "some text to obfuscate" )
+  $syntax = array( "text" => bw_skv( seed(), "textarea", "some text to obfuscate" )
                  , "form" => bw_skv( "N", "Y", "display form to allow changes" )
                  , "both" => bw_skv( "N", "Y", "display both original and output text" )
                  );

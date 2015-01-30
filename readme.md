@@ -3,7 +3,7 @@
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 4.0
+* Tested up to: 4.1
 * Stable tag: 1.7
 
 obfuscate text but leave it readable, apparently
@@ -86,6 +86,9 @@ It used to be delivered as part of bbboing, but is now delivered separately.
 1. Example of [bbboing form=y cols=80 text="some text"]
 
 ## Upgrade Notice 
+# 1.8 
+To test integration with the shorcake UI plugin you also need oik v2.5-alpha.0130 or higher.
+
 # 1.7 
 Now dependent upon oik v2.2 or higher. Tested with WordPress 4.0
 
@@ -103,6 +106,9 @@ Requires oik version 1.12 or higher
 
 
 ## Changelog 
+# 1.8 
+* Changed: Syntax help changed to test integration with the shortcake UI plugin
+
 # 1.7 
 * Changed: Responds to "oik_add_shortcodes"
 
