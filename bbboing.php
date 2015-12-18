@@ -4,7 +4,7 @@ Plugin Name: bbboing
 Depends: oik base plugin
 Plugin URI: http://www.oik-plugins.com/oik-plugins/bbboing
 Description: obfuscate text but leave it readable, using oik
-Version: 1.8
+Version: 1.8.0
 Author: bobbingwide
 Author URI: http://www.oik-plugins.com/author/bobbingwide
 License: GPL2
@@ -26,6 +26,7 @@ License: GPL2
     http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+bbboing_plugin_loaded();
 
 /**
  * Implement the "init" action for bbboing 
@@ -57,11 +58,12 @@ function bbboing_oik_add_shortcodes() {
 /**
  * Dependency checking for bbboing
  *
- * bbboing version 1.8 dependent upon oik version 2.3 or higher but needs v2.5-alpha.0130 for shortcake UI integration
- * bbboing version 1.7 dependent upon oik version 2.2 or higher
- * bbboing version 1.6 dependent upon oik version 2.1-alpha or higher and uses the new oik-activation code
- * bbboing version 1.2 was dependent upon oik version 1.11
- * 
+ * - bbboing version 1.8.0 now dependent upon oik v2.5 or higher. See below for shortcake UI integration
+ * - bbboing version 1.8 dependent upon oik version 2.3 or higher but needs v2.5-alpha.0130 for shortcake UI integration
+ * - bbboing version 1.7 dependent upon oik version 2.2 or higher
+ * - bbboing version 1.6 dependent upon oik version 2.1-alpha or higher and uses the new oik-activation code
+ * - bbboing version 1.2 was dependent upon oik version 1.11
+ *  
  */ 
 function bbboing_activation() {
   static $plugin_basename = null;
@@ -72,7 +74,7 @@ function bbboing_activation() {
       require_once( "admin/oik-activation.php" );
     }  
   }  
-  $depends = "oik:2.3";
+  $depends = "oik:2.5";
   //bw_backtrace();
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }
@@ -86,8 +88,6 @@ function bbboing_plugin_loaded() {
   add_action( "oik_add_shortcodes", "bbboing_oik_add_shortcodes" );
   add_action( "admin_notices", "bbboing_activation" );
 }
-
-bbboing_plugin_loaded();
 
 
 
