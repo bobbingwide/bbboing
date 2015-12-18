@@ -110,7 +110,7 @@ Requires oik version 1.12 or higher
 
 == Changelog ==
 = 1.8.0 =
-* Tested: With WordPress 4.4. and WordPress MultiSite.
+* Tested: With WordPress 4.4 and WordPress MultiSite.
 * Changed: Updated oik-activation to match oik.
 * Changed: Now depends on oik v2.5 or higher. 
 

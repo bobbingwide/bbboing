@@ -58,7 +58,7 @@ function bbboing_oik_add_shortcodes() {
 /**
  * Dependency checking for bbboing
  *
- * - bbboing version 1.8.0 now dependent upon oik v2.5 or higher. See below for shortcake UI integration
+ * - bbboing version 1.8.0 now dependent upon oik v2.5 or higher. 
  * - bbboing version 1.8 dependent upon oik version 2.3 or higher but needs v2.5-alpha.0130 for shortcake UI integration
  * - bbboing version 1.7 dependent upon oik version 2.2 or higher
  * - bbboing version 1.6 dependent upon oik version 2.1-alpha or higher and uses the new oik-activation code
