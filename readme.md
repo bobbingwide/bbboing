@@ -61,7 +61,7 @@ Furthermore it's an anagram where the first and last letters of the word are not
 Render obscure, unclear, or unintelligible. Bewilder (someone).
 
 # What is this plugin for? 
-The purpose of this plugin is both entertaining, educational and experimental.
+The purpose of this plugin is to be entertaining, educational and experimental.
 
 Entertaining in that it produces an obfuscated version of some text following the "rules" defined in http://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
 
@@ -69,7 +69,7 @@ Educational in that it shows an example of a plugin developed using the oik appl
 * smart - the shortcodes understand the content in which they're invoked
 * lazy - the code to evaluate the shortcode is loaded on demand, when the shortcode is used.
 
-* Experimental: some very similar code is being used to automatically generate language files a locale identified as bb_BB.
+* Experimental: some very similar code is being used to automatically generate language files for a locale identified as bb_BB.
 
 # Can you tell me more about the research? 
 See http://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
@@ -77,16 +77,11 @@ See http://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
 See also the definition of typoglycemia, where the original text is longer than the example used here.
 [typoglycemia](http://en.wikipedia.org/wiki/Typoglycemia)
 
-# What is the bobbing plugin? 
-A sample plugin that is dependent upon oik and bbboing.
-It used to be delivered as part of bbboing, but is now delivered separately.
-
-
 ## Screenshots 
 1. Example of [bbboing form=y cols=80 text="some text"]
 
 ## Upgrade Notice 
-# 1.8.1 
+# 1.8.0 
 Tested with WordPress 4.4 and WordPress MultiSite. Now depends on oik v2.5
 
 # 1.8 
