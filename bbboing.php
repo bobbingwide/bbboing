@@ -4,12 +4,12 @@ Plugin Name: bbboing
 Depends: oik
 Plugin URI: http://www.oik-plugins.com/oik-plugins/bbboing
 Description: obfuscate text but leave it readable, using oik
-Version: 1.8.0
+Version: 1.8.1
 Author: bobbingwide
 Author URI: http://www.oik-plugins.com/author/bobbingwide
 License: GPL2
 
-    Copyright 2012-2015 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2012-2016 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -58,6 +58,7 @@ function bbboing_oik_add_shortcodes() {
 /**
  * Dependency checking for bbboing
  *
+ * - bbboing version 1.8.1 now dependent upon oik v3.0.0 or higher.
  * - bbboing version 1.8.0 now dependent upon oik v2.5 or higher. 
  * - bbboing version 1.8 dependent upon oik version 2.3 or higher but needs v2.5-alpha.0130 for shortcake UI integration
  * - bbboing version 1.7 dependent upon oik version 2.2 or higher
@@ -74,7 +75,7 @@ function bbboing_activation() {
       require_once( "admin/oik-activation.php" );
     }  
   }  
-  $depends = "oik:2.5";
+  $depends = "oik:3.0.0";
   //bw_backtrace();
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }

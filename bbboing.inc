@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2010-2013
+<?php // (C) Copyright Bobbing Wide 2010-2016
 
 /**
  * Implement [bbboing] shortcode 
@@ -7,7 +7,6 @@
  * @param string $content - not implemented
  * @param string $tag 
  * @return string - the result of the shortcode expansion  
- *  
  */
 function bbboing_sc( $atts=null, $content=null, $tag=null ) {
   $form = bw_array_get( $atts, "form", 'N' );
@@ -15,11 +14,11 @@ function bbboing_sc( $atts=null, $content=null, $tag=null ) {
   $text = bw_array_get_dcb( $atts, "text", "", "seed" );
   $form = bw_validate_torf( $form );
   $both = bw_validate_torf( $both );
-  if ( $form )
+  if ( $form ) {
     $result = _bbboing_form( $text, $atts );
-  else
+  } else {
     $result = _bbboing_static( $text, $both );
-      
+  }   
   return( $result );
 }
 
@@ -30,7 +29,7 @@ function bbboing_sc( $atts=null, $content=null, $tag=null ) {
  * @param bool $both - whether or not to display the original text and the result
  * @return string - the result
  */
-function _bbboing_static( $text=NULL, $both=false ) {
+function _bbboing_static( $text=null, $both=false ) {
   if ( $both ) {
     h4( __("Original text", "bbboing" ) );
     p( $text );
@@ -80,9 +79,8 @@ function hoax_version() {
  * 
  * @param string $text - default text
  * @return string - sanitized text
- *  
  */
-function _bbboing_get( $text=NULL ) {
+function _bbboing_get( $text=null ) {
   $verified = bw_verify_nonce( "_bbboing_form", "_bbboing_nonce" );
   if ( $verified ) {
     $new_text = bw_array_get( $_REQUEST, "_bbboing_text", $text );
@@ -99,30 +97,27 @@ function _bbboing_get( $text=NULL ) {
  * Display the form to accept text to be bbboing'ed 
  * 
  * Note: removed class="inline" from the form. **?** is this OK?
- * 
+ *
+ * @param string $text 
+ * @param array $atts 
+ * @return string generated HTML 
  */
-function _bbboing_form( $text=NULL, $atts=NULL ) {
+function _bbboing_form( $text=null, $atts=null ) {
   oik_require( "bobbforms.inc" );
   $text = _bbboing_get( $text );  
   $cols = bw_array_get( $atts, "cols", 80 );
   bw_form();
   p( "Type the text you want to obfuscate then click on 'bbboing it'" );
-  //stag( "table" ); 
-  bw_textarea( "_bbboing_text", $cols, NULL, $text );
-  //etag( "table" );
+  bw_textarea( "_bbboing_text", $cols, null, $text );
   br();
-  
   e( wp_nonce_field( "_bbboing_form", "_bbboing_nonce", false ) );
   e( isubmit( "_bbboing_ok", __( "bbboing it", "bbboing" ) ) );
   p("This is the result of <i>bbboing</i>ing the text." ); 
-  //stag( "table" ); 
-  bw_textarea( "_bbboinged", $cols, NULL ,   bbboing( $text ) );
-  //etag( "table" );
+  bw_textarea( "_bbboinged", $cols, null ,   bbboing( $text ) );
   p( "If you're not happy with the result just click on 'bbboing it'!" );
   etag( "form" );
   return( bw_ret());
 }
-
 
 /** 
  * bbboing some text
@@ -132,7 +127,7 @@ function _bbboing_form( $text=NULL, $atts=NULL ) {
  * To overcome this we're going to improve the bboing() function... replacing it with the new function bboing2()
  * 
  * @param string - the text to be bbboing'ed
- * @param string - the bbboing'ed text
+ * @return string - the bbboing'ed text
  */
 function bbboing( $text ) {
   $bbtext = '';
@@ -156,11 +151,9 @@ function bbboing( $text ) {
  * e.g. 
  * http://www.bobbingwide.com could become
  * http://www.bbbidiwonge.com      
- * 
  *
  * @param string $word - a particular word
  * @return string - the bbboing'ed word
- *
  */
 function bboing( $word ) {
   if ( ctype_alpha( $word ) ) {
@@ -231,6 +224,10 @@ function boing( $word ) {
 
 /**
  * Perform boing() against a part of the word replacing the characters in the chars array
+ *
+ * @param string $chars 
+ * @param string $subword
+ * @param integer $first
  */
 function boingsubword( &$chars, $subword, $first ) {
   $wrod = boing( $subword );
@@ -246,13 +243,17 @@ function boingsubword( &$chars, $subword, $first ) {
  * Note: We expect the words to be split on blank characters
  * 
  * Strings we should not auto translate contain:
- * :// -> URLs  http://,  https://, ftp://, ftps://, mailto://
- * @ -> email addresses
- * % -> symbolic substitution variables e.g. %1$s 
- * = -> keyword="value" ... but this could have problems if within HTML tags...
- * & -> symbolic html such as &lasquo;
- * so we cater for < and > separately
- * 
+ *
+ * Value | Example usage
+ * ----- | ---------------------------------------------------
+ * :// | URLs  http://,  https://, ftp://, ftps://, mailto://
+ * @ | email addresses
+ * % | symbolic substitution variables e.g. %1$s 
+ * = | keyword="value" ... but this could have problems if within HTML tags...
+ * & | symbolic html such as &lasquo; so we cater for < and > separately
+ *
+ * @param string $word
+ * @return bool true if we should process the word 
  */
 function bboing_process_word( $word ) {
   $process = true;
