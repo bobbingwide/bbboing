@@ -52,6 +52,7 @@ function bbboing_oik_loaded() {
  * 
  */
 function bbboing_oik_add_shortcodes() { 
+	bw_backtrace( BW_TRACE_VERBOSE );
   bw_add_shortcode( 'bbboing', 'bbboing_sc', oik_path( "bbboing.inc", "bbboing" ), false );
 }
 
