@@ -1,0 +1,110 @@
+# Copyright (C) 2016 bbboing
+# This file is distributed under the same license as the bbboing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbboing 1.8.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bbboing\n"
+"POT-Creation-Date: 2016-08-01 19:30:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+#: admin/oik-activation.php:21
+msgid "Install"
+msgstr "Installer"
+
+#: admin/oik-activation.php:50
+msgid "Activate"
+msgstr "Activer"
+
+#: admin/oik-activation.php:75
+msgid " Upgrade"
+msgstr " Améliorer"
+
+#: admin/oik-activation.php:193
+msgid "%1$s may not be fully functional."
+msgstr "%1$S ne peut pas être pleinement fonctionnel"
+
+#: admin/oik-activation.php:195
+msgid ""
+"Please install and activate the required minimum version of this plugin:"
+msgstr "S'il vous plaît installer et activer la version minimale requise de ce plugin:"
+
+#: bbboing.inc:34
+msgid "Original text"
+msgstr "texte original"
+
+#: bbboing.inc:36
+msgid "bbboing'ed"
+msgstr ""
+
+#: bbboing.inc:111
+msgid "Type the text you want to obfuscate then click on 'bbboing it'"
+msgstr "Tapez le texte que vous souhaitez masquer , puis cliquez sur 'bbboing it'"
+
+#: bbboing.inc:115
+msgid "bbboing it"
+msgstr ""
+
+#: bbboing.inc:116
+msgid "This is the result of <i>bbboing</i>ing the text."
+msgstr "Ceci est le résultat de <i>bbboing </i>ing le texte."
+
+#: bbboing.inc:118
+msgid "If you're not happy with the result just click on 'bbboing it'!"
+msgstr "Si vous n'êtes pas satisfait du résultat, cliquez simplement sur ' bbboing it'!"
+
+#: bbboing.inc:329
+msgid "Obfuscate some text but leave it readable, apparently"
+msgstr "Obfuscate texte mais laisser lisible, apparemment"
+
+#: bbboing.inc:337
+msgid "textarea"
+msgstr ""
+
+#: bbboing.inc:337
+msgid "some text to obfuscate"
+msgstr "un texte à obscurcir"
+
+#: bbboing.inc:338 bbboing.inc:339
+msgid "Y"
+msgstr "un texte à obscurcir"
+
+#: bbboing.inc:338
+msgid "display form to allow changes"
+msgstr "forme pour permettre des changements afficher"
+
+#: bbboing.inc:339
+msgid "display both original and output text"
+msgstr "afficher à la fois le texte original et la sortie"
+
+#: bbboing.inc:354
+msgid ""
+"This is the original obfuscated text. It has been manually adjusted to make "
+"it readable"
+msgstr "Ceci est le texte obscurcie d'origine. Il a été réglé manuellement pour le rendre lisible"
+
+#. Plugin Name of the plugin/theme
+msgid "bbboing"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oik-plugins.com/oik-plugins/bbboing"
+msgstr "http://www.oik-plugins.com/oik-plugins/bbboing"
+
+#. Description of the plugin/theme
+msgid "obfuscate text but leave it readable, using oik"
+msgstr "obfusquer texte, mais laisser lisible, en utilisant oik"
+
+#. Author of the plugin/theme
+msgid "bobbingwide"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.oik-plugins.com/author/bobbingwide"
+msgstr "http://www.oik-plugins.com/author/bobbingwide"
+

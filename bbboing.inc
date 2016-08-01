@@ -103,6 +103,7 @@ function _bbboing_get( $text=null ) {
  * @return string generated HTML 
  */
 function _bbboing_form( $text=null, $atts=null ) {
+	bw_context( "textdomain", "bbboing" );
   oik_require( "bobbforms.inc" );
   $text = _bbboing_get( $text );  
   $cols = bw_array_get( $atts, "cols", 80 );
@@ -116,6 +117,8 @@ function _bbboing_form( $text=null, $atts=null ) {
   bw_textarea( "_bbboinged", $cols, null ,   bbboing( $text ) );
   p( "If you're not happy with the result just click on 'bbboing it'!" );
   etag( "form" );
+	
+	bw_context( "textdomain", false );
   return( bw_ret());
 }
 

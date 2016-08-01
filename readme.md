@@ -3,7 +3,7 @@
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 4.5
+* Tested up to: 4.6-RC1
 * Stable tag: 1.8.1
 
 obfuscate text but leave it readable, apparently
@@ -81,6 +81,9 @@ See also the definition of typoglycemia, where the original text is longer than 
 1. Example of [bbboing form=y cols=80 text="some text"]
 
 ## Upgrade Notice 
+# 1.8.2 
+Created French and bbboing language versions.
+
 # 1.8.1 
 Tested with WordPress 4.5 and WordPress MultiSite. Now depends on oik v3.0.0 or higher
 
@@ -107,6 +110,10 @@ Requires oik version 1.12 or higher
 
 
 ## Changelog 
+# 1.8.2 
+* Changed: Created French version to test with WordPress 4.6
+* Changed: Created bb_BB locale version to test with WordPress 4.6
+
 # 1.8.1 
 * Tested: With  WordPress 4.5 and WordPress MultiSite.
 * Changed: Now depends on oik v3.0.0 or higher.

@@ -4,10 +4,13 @@ Plugin Name: bbboing
 Depends: oik
 Plugin URI: http://www.oik-plugins.com/oik-plugins/bbboing
 Description: obfuscate text but leave it readable, using oik
-Version: 1.8.1
+Version: 1.8.2
 Author: bobbingwide
 Author URI: http://www.oik-plugins.com/author/bobbingwide
-License: GPL2
+Text Domain: bbboing
+Domain Path: /languages/
+License: GPL2v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
     Copyright 2012-2016 Bobbing Wide (email : herb@bobbingwide.com )
 
@@ -45,6 +48,7 @@ function bbboing_init() {
  */
 function bbboing_oik_loaded() { 
   //bw_add_shortcode( 'bbboing', 'bbboing_sc', oik_path( "bbboing.inc", "bbboing" ), false );
+	bw_load_plugin_textdomain( "bbboing" );
 }
 
 /**
