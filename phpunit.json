@@ -1,0 +1,74 @@
+{
+    "event": "suiteStart",
+    "suite": "",
+    "tests": 5
+}{
+    "event": "suiteStart",
+    "suite": "Tests_bbboing",
+    "tests": 5
+}{
+    "event": "testStart",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing_loaded_action_performed"
+}{
+    "event": "test",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing_loaded_action_performed",
+    "status": "pass",
+    "time": 0.0013411045074463,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_oik_add_shortcodes"
+}{
+    "event": "test",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_oik_add_shortcodes",
+    "status": "pass",
+    "time": 0.017519950866699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing_form_n_both_y"
+}{
+    "event": "test",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing_form_n_both_y",
+    "status": "pass",
+    "time": 0.029699087142944,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing_form_y"
+}{
+    "event": "test",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing_form_y",
+    "status": "pass",
+    "time": 0.011437892913818,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing"
+}{
+    "event": "test",
+    "suite": "Tests_bbboing",
+    "test": "Tests_bbboing::test_bbboing",
+    "status": "pass",
+    "time": 0.0060088634490967,
+    "trace": [],
+    "message": "",
+    "output": ""
+}
