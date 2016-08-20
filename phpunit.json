@@ -15,7 +15,7 @@
     "suite": "Tests_bbboing",
     "test": "Tests_bbboing::test_bbboing_loaded_action_performed",
     "status": "pass",
-    "time": 0.0013411045074463,
+    "time": 0.0014431476593018,
     "trace": [],
     "message": "",
     "output": ""
@@ -28,7 +28,7 @@
     "suite": "Tests_bbboing",
     "test": "Tests_bbboing::test_oik_add_shortcodes",
     "status": "pass",
-    "time": 0.017519950866699,
+    "time": 0.018235921859741,
     "trace": [],
     "message": "",
     "output": ""
@@ -41,7 +41,7 @@
     "suite": "Tests_bbboing",
     "test": "Tests_bbboing::test_bbboing_form_n_both_y",
     "status": "pass",
-    "time": 0.029699087142944,
+    "time": 0.01621413230896,
     "trace": [],
     "message": "",
     "output": ""
@@ -54,7 +54,7 @@
     "suite": "Tests_bbboing",
     "test": "Tests_bbboing::test_bbboing_form_y",
     "status": "pass",
-    "time": 0.011437892913818,
+    "time": 0.011212110519409,
     "trace": [],
     "message": "",
     "output": ""
@@ -67,7 +67,7 @@
     "suite": "Tests_bbboing",
     "test": "Tests_bbboing::test_bbboing",
     "status": "pass",
-    "time": 0.0060088634490967,
+    "time": 0.007979154586792,
     "trace": [],
     "message": "",
     "output": ""

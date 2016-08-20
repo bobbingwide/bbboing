@@ -1,10 +1,11 @@
 # bbboing 
+![banner](https://raw.githubusercontent.com/bobbingwide/bbboing/master/assets/bbboing-banner-772x250.jpg)
 * Contributors: bobbingwide, vsgloik
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 4.6-RC1
-* Stable tag: 1.8.1
+* Tested up to: 4.6
+* Stable tag: 1.8.2
 
 obfuscate text but leave it readable, apparently
 
@@ -82,7 +83,7 @@ See also the definition of typoglycemia, where the original text is longer than 
 
 ## Upgrade Notice 
 # 1.8.2 
-Created French and bbboing language versions.
+Created French and bbboing language versions. Tested with WordPress 4.6.
 
 # 1.8.1 
 Tested with WordPress 4.5 and WordPress MultiSite. Now depends on oik v3.0.0 or higher
@@ -113,6 +114,8 @@ Requires oik version 1.12 or higher
 # 1.8.2 
 * Changed: Created French version to test with WordPress 4.6
 * Changed: Created bb_BB locale version to test with WordPress 4.6
+* Changed: Added PHPUnit tests in the GitHub version [github bobbingwide bbboing issue 2]
+* Fixed: wp_nonce_field() called with incorrect parameters [github bobbingwide bbboing issue 1]
 
 # 1.8.1 
 * Tested: With  WordPress 4.5 and WordPress MultiSite.
