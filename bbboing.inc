@@ -111,7 +111,7 @@ function _bbboing_form( $text=null, $atts=null ) {
   p( "Type the text you want to obfuscate then click on 'bbboing it'" );
   bw_textarea( "_bbboing_text", $cols, null, $text );
   br();
-  e( wp_nonce_field( "_bbboing_form", "_bbboing_nonce", false ) );
+  e( wp_nonce_field( "_bbboing_form", "_bbboing_nonce", false, false ) );
   e( isubmit( "_bbboing_ok", __( "bbboing it", "bbboing" ) ) );
   p("This is the result of <i>bbboing</i>ing the text." ); 
   bw_textarea( "_bbboinged", $cols, null ,   bbboing( $text ) );
