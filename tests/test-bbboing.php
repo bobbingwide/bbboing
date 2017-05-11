@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2016
+<?php // (C) Copyright Bobbing Wide 2016, 2017
 /**
  * @group bbboing
  */
@@ -23,6 +23,9 @@ class Tests_bbboing extends WP_UnitTestCase {
 
 	/**
 	 * Demonstrate that bbboing is active
+	 *
+	 * If this fails it suggests that the plugin is not activated.
+	 * Other tests are also expected to fail.
 	 */
 	function test_bbboing_loaded_action_performed() {
 		$performed = did_action( "bbboing_loaded" );
