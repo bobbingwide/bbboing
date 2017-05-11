@@ -1,10 +1,10 @@
 === bbboing ===
 Contributors: bobbingwide, vsgloik 
-Donate link: http://www.oik-plugins.com/oik/oik-donate/
+Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcode, obfuscate 
 Requires at least: 3.9
-Tested up to: 4.6
-Stable tag: 1.8.2
+Tested up to: 4.7.4
+Stable tag: 1.8.3
 
 obfuscate text but leave it readable, apparently
 
@@ -45,25 +45,27 @@ Please use bbboing for your own amusement.
 
 Note: the bbboing plugin is dependent upon the oik plugin.
 
-== Installation ==
+== Frequently Asked Questions ==
+
+= Installation =
 1. Upload the contents of the bbboing plugin to the `/wp-content/plugins/bbboing' directory
 1. Activate the bbboing plugin through the 'Plugins' menu in WordPress
 1. Whenever you want to produce some 'bbboing'ed text use the [bbboing] shortcode.
 
 Note: bbboing is dependent upon the oik plugin. You can activate it but it will not work unless oik is also activated.
 
-== Frequently Asked Questions ==
 = Where does bbboing come from? =
 bbboing is an anagram of bobbing, which is part of my company name ( bobbing wide - hence my WordPress.org username ). 
 Furthermore it's an anagram where the first and last letters of the word are not changed.
 'bbboing' is just one of the possible results of running the algorithm against 'bobbing'.
+
 = What does obfuscate mean? =
 Render obscure, unclear, or unintelligible. Bewilder (someone).
 
 = What is this plugin for? =
 The purpose of this plugin is to be entertaining, educational and experimental.
 
-Entertaining in that it produces an obfuscated version of some text following the "rules" defined in http://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
+Entertaining in that it produces an obfuscated version of some text following the "rules" defined in https://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
 
 Educational in that it shows an example of a plugin developed using the oik application programming interface, implementing lazy smart shortcodes.
 * smart - the shortcodes understand the content in which they're invoked
@@ -72,15 +74,22 @@ Educational in that it shows an example of a plugin developed using the oik appl
 Experimental: some very similar code is being used to automatically generate language files for a locale identified as bb_BB.
 
 = Can you tell me more about the research? =
-See http://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
+See https://www.mrc-cbu.cam.ac.uk/people/matt.davis/Cmabrigde/
 
 See also the definition of typoglycemia, where the original text is longer than the example used here.
-[typoglycemia](http://en.wikipedia.org/wiki/Typoglycemia)
+[typoglycemia](https://en.wikipedia.org/wiki/Typoglycemia)
+
+= Further reading =
+If you want to read more about oik plugins and themes then please visit [oik-plugins](https://www.oik-plugins.com) 
+
 
 == Screenshots ==
 1. Example of [bbboing form=y cols=80 text="some text"]
 
 == Upgrade Notice ==
+= 1.8.3 = 
+7th Anniversary edition. Tested with WordPress 4.7.4 and PHP 7.1.
+
 = 1.8.2 = 
 Created French and bbboing language versions. Tested with WordPress 4.6.
 
@@ -110,6 +119,11 @@ Requires oik version 1.12 or higher
 
 
 == Changelog ==
+= 1.8.3 = 
+* Added: Notes for 7th anniversary edition. 
+* Tested: With WordPress 4.7.4 and WordPress Multisite
+* Tested: With PHP 7.1
+
 = 1.8.2 = 
 * Changed: Created French version to test with WordPress 4.6 
 * Changed: Created bb_BB locale version to test with WordPress 4.6
@@ -152,11 +166,10 @@ Requires oik version 1.12 or higher
 * Fixed: bobbing issued a fatal error if oik was not activated. Function bw_backtrace() was missing.
 
 = 1.0 =
-* initial version. Works with oik version 1.11 
+* Initial version on wordpress.org. Works with oik version 1.11 
 
-
-== Further reading ==
-If you want to read more about oik plugins and themes then please visit [oik-plugins](http://www.oik-plugins.com) 
+= 0.0 = 
+* Prototyped bbboing.inc on or before 17th April 2010
 
 
 
