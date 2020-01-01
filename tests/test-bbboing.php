@@ -1,13 +1,17 @@
-<?php // (C) Copyright Bobbing Wide 2016, 2017
+<?php
 /**
+ * Tests bbboing.
+ *
+ * @copyright (C) Copyright Bobbing Wide 2016, 2017, 2020
  * @group bbboing
+ *
  */
 class Tests_bbboing extends WP_UnitTestCase {
 
 	/**
 	 * setUp is run for every test
 	 */
-	function setUp() {
+	function setUp(): void {
 		// parent::setUp();
 		//do_action( "oik_add_shortcodes" );
 		//echo "setUp run";
@@ -16,7 +20,7 @@ class Tests_bbboing extends WP_UnitTestCase {
 	/**
 	 * tearDown is run for every test
 	 */
-	function tearDown() {
+	function tearDown(): void {
 		// parent::tearDown();
 		//echo "tearDown run";
 	}
