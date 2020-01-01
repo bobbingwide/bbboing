@@ -4,8 +4,9 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 4.8
-* Stable tag: 1.8.3
+* Tested up to: 5.3.2
+* Stable tag: 1.8.4
+* Gutenberg compatible: Yes
 
 obfuscate text but leave it readable, apparently
 
@@ -88,6 +89,9 @@ If you want to read more about oik plugins and themes then please visit [oik-plu
 1. Example of [bbboing form=y cols=80 text="some text"]
 
 ## Upgrade Notice 
+# 1.8.4 
+Tested with WordPress 5.3.2 and WordPress Multi Site, PHP 7.3 and 7.4, PHPUnit 8
+
 # 1.8.3 
 7th Anniversary edition. Tested with WordPress 4.7.4 and PHP 7.1.
 
@@ -120,6 +124,12 @@ Requires oik version 1.12 or higher
 
 
 ## Changelog 
+# 1.8.4 
+* Changed: Update tests for PHPUnit 8,https://github.com/bobbingwide/bbboing/issues/4
+* Tested: With WordPress 5.3.2 and WordPress Multi Site
+* Tested: With PHP 7.3 and PHP 7.4
+* Tested: With PHPUnit 8
+
 # 1.8.3 
 * Added: Notes for 7th anniversary edition.
 * Tested: With WordPress 4.7.4 and WordPress Multisite

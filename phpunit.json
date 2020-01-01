@@ -1,74 +1,12 @@
-{
-    "event": "suiteStart",
-    "suite": "",
-    "tests": 5
-}{
-    "event": "suiteStart",
-    "suite": "Tests_bbboing",
-    "tests": 5
-}{
-    "event": "testStart",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing_loaded_action_performed"
-}{
-    "event": "test",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing_loaded_action_performed",
-    "status": "pass",
-    "time": 0.0014431476593018,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_oik_add_shortcodes"
-}{
-    "event": "test",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_oik_add_shortcodes",
-    "status": "pass",
-    "time": 0.018235921859741,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing_form_n_both_y"
-}{
-    "event": "test",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing_form_n_both_y",
-    "status": "pass",
-    "time": 0.01621413230896,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing_form_y"
-}{
-    "event": "test",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing_form_y",
-    "status": "pass",
-    "time": 0.011212110519409,
-    "trace": [],
-    "message": "",
-    "output": ""
-}{
-    "event": "testStart",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing"
-}{
-    "event": "test",
-    "suite": "Tests_bbboing",
-    "test": "Tests_bbboing::test_bbboing",
-    "status": "pass",
-    "time": 0.007979154586792,
-    "trace": [],
-    "message": "",
-    "output": ""
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="bbboing" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.003822">
+    <testsuite name="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.003822">
+      <testcase name="test_bbboing_loaded_action_performed" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="34" assertions="1" time="0.000184"/>
+      <testcase name="test_oik_add_shortcodes" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="42" assertions="1" time="0.001625"/>
+      <testcase name="test_bbboing_form_n_both_y" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="59" assertions="1" time="0.001110"/>
+      <testcase name="test_bbboing_form_y" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="68" assertions="1" time="0.000611"/>
+      <testcase name="test_bbboing" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="80" assertions="1" time="0.000292"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
