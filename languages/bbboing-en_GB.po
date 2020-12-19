@@ -7,7 +7,7 @@ msgstr ""
 "POT-Creation-Date: 2020-12-19 15:45:47+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"Language: bb_BB\n"
+"Language: en_GB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -15,86 +15,86 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 #: admin/oik-activation.php:29
 msgid "Install %1$s"
-msgstr "Isnatll %1$s"
+msgstr "Install %1$s"
 
 #: admin/oik-activation.php:61
 msgid "Activate %1$s"
-msgstr "Atcvitae %1$s"
+msgstr "Activate %1$s"
 
 #: admin/oik-activation.php:79
 msgid "Upgrade %1$s"
-msgstr "Ugparde %1$s"
+msgstr "Upgrade %1$s"
 
 #: admin/oik-activation.php:195
 msgid " version "
-msgstr "vreison"
+msgstr " version "
 
 #: admin/oik-activation.php:197
 msgid "%1$s may not be fully functional."
-msgstr "%1$s mAy nOt bE fluly fnutcoianl."
+msgstr "%1$s may not be fully functional."
 
 #: admin/oik-activation.php:199
 msgid ""
 "Please install and activate the required minimum version of this plugin: %1$s"
-msgstr "Pelsae isnatll And atcvitae thE rqeiuerd mnimium vreison Of tihs pulign: %1$s"
+msgstr "Please install and activate the required minimum version of this plugin: %1$s"
 
 #: bbboing.inc:34
 msgid "Original text"
-msgstr "Oiriganl txet"
+msgstr "Original text"
 
 #: bbboing.inc:36
 msgid "bbboing'ed"
-msgstr "bbbiong'Ed"
+msgstr "bbboing'ed"
 
 #: bbboing.inc:111
 msgid "Type the text you want to obfuscate then click on 'bbboing it'"
-msgstr "Tpye thE txet yOU wnat tO ofbsuacte tehn cilck On 'bbbiong It'"
+msgstr "Type the text you want to obfuscate then click on 'bbboing it'"
 
 #: bbboing.inc:115
 msgid "bbboing it"
-msgstr "bbbiong It"
+msgstr "bbboing it"
 
 #: bbboing.inc:116
 msgid "This is the result of <i>bbboing</i>ing the text."
-msgstr "Tihs Is thE rselut Of <i>bbboing</i>ing thE txet."
+msgstr "This is the result of <i>bbboing</i>ing the text."
 
 #: bbboing.inc:118
 msgid "If you're not happy with the result just click on 'bbboing it'!"
-msgstr "If yOU'rE nOt hpapy wtih thE rselut jsut cilck On 'bbbiong It'!"
+msgstr "If you're not happy with the result just click on 'bbboing it'!"
 
 #: bbboing.inc:331
 msgid "Obfuscate some text but leave it readable, apparently"
-msgstr "Ofbsuacte smoe txet bUt laeve It raeadlbe, appranelty"
+msgstr "Obfuscate some text but leave it readable, apparently"
 
 #: bbboing.inc:339
 msgid "some text to obfuscate"
-msgstr "smoe txet tO ofbsuacte"
+msgstr "some text to obfuscate"
 
 #: bbboing.inc:340
 msgid "display form to allow changes"
-msgstr "dsilpay from tO allow cahgnes"
+msgstr "display form to allow changes"
 
 #: bbboing.inc:341
 msgid "display both original and output text"
-msgstr "dsilpay btoh oiriganl And otuupt txet"
+msgstr "display both original and output text"
 
 #: bbboing.inc:356
 msgid ""
 "This is the original obfuscated text. It has been manually adjusted to make "
 "it readable"
-msgstr "Tihs Is thE oiriganl ofbsuacetd txet. It hAs been mnaaully ajdsuetd tO mkae It raeadlbe"
+msgstr "This is the original obfuscated text. It has been manually adjusted to make it readable"
 
 msgid "bbboing"
-msgstr "bbbiong"
+msgstr "bbboing"
 
 msgid "https://www.oik-plugins.com/oik-plugins/bbboing"
 msgstr "https://www.oik-plugins.com/oik-plugins/bbboing"
 
 msgid "obfuscate text but leave it readable, using oik"
-msgstr "ofbsuacte txet bUt laeve It raeadlbe, uisng OIk"
+msgstr "obfuscate text but leave it readable, using oik"
 
 msgid "bobbingwide"
-msgstr "bboibgniwde"
+msgstr "bobbingwide"
 
 msgid "https://bobbingwide.com/about-bobbing-wide"
 msgstr "https://bobbingwide.com/about-bobbing-wide"

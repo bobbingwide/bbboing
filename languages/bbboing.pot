@@ -1,36 +1,40 @@
-# Copyright (C) 2016 bbboing
+# Copyright (C) 2020 bbboing
 # This file is distributed under the same license as the bbboing package.
 msgid ""
 msgstr ""
-"Project-Id-Version: bbboing 1.8.2\n"
+"Project-Id-Version: bbboing 1.8.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/bbboing\n"
-"POT-Creation-Date: 2016-08-01 19:30:22+00:00\n"
+"POT-Creation-Date: 2020-12-19 15:45:47+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: admin/oik-activation.php:21
-msgid "Install"
+#: admin/oik-activation.php:29
+msgid "Install %1$s"
 msgstr ""
 
-#: admin/oik-activation.php:50
-msgid "Activate"
+#: admin/oik-activation.php:61
+msgid "Activate %1$s"
 msgstr ""
 
-#: admin/oik-activation.php:75
-msgid " Upgrade"
-msgstr ""
-
-#: admin/oik-activation.php:193
-msgid "%1$s may not be fully functional."
+#: admin/oik-activation.php:79
+msgid "Upgrade %1$s"
 msgstr ""
 
 #: admin/oik-activation.php:195
+msgid " version "
+msgstr ""
+
+#: admin/oik-activation.php:197
+msgid "%1$s may not be fully functional."
+msgstr ""
+
+#: admin/oik-activation.php:199
 msgid ""
-"Please install and activate the required minimum version of this plugin:"
+"Please install and activate the required minimum version of this plugin: %1$s"
 msgstr ""
 
 #: bbboing.inc:34
@@ -57,31 +61,23 @@ msgstr ""
 msgid "If you're not happy with the result just click on 'bbboing it'!"
 msgstr ""
 
-#: bbboing.inc:329
+#: bbboing.inc:331
 msgid "Obfuscate some text but leave it readable, apparently"
 msgstr ""
 
-#: bbboing.inc:337
-msgid "textarea"
-msgstr ""
-
-#: bbboing.inc:337
+#: bbboing.inc:339
 msgid "some text to obfuscate"
 msgstr ""
 
-#: bbboing.inc:338 bbboing.inc:339
-msgid "Y"
-msgstr ""
-
-#: bbboing.inc:338
+#: bbboing.inc:340
 msgid "display form to allow changes"
 msgstr ""
 
-#: bbboing.inc:339
+#: bbboing.inc:341
 msgid "display both original and output text"
 msgstr ""
 
-#: bbboing.inc:354
+#: bbboing.inc:356
 msgid ""
 "This is the original obfuscated text. It has been manually adjusted to make "
 "it readable"
@@ -92,7 +88,7 @@ msgid "bbboing"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.oik-plugins.com/oik-plugins/bbboing"
+msgid "https://www.oik-plugins.com/oik-plugins/bbboing"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -104,5 +100,5 @@ msgid "bobbingwide"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.oik-plugins.com/author/bobbingwide"
+msgid "https://bobbingwide.com/about-bobbing-wide"
 msgstr ""
