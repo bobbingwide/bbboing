@@ -4,7 +4,7 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 5.3.2
+* Tested up to: 5.7
 * Stable tag: 1.8.4
 * Gutenberg compatible: Yes
 
