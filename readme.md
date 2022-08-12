@@ -1,10 +1,10 @@
 # bbboing 
-![banner](https://raw.githubusercontent.com/bobbingwide/bbboing/master/assets/bbboing-banner-772x250.jpg)
+![banner](assets/bbboing-banner-772x250.jpg)
 * Contributors: bobbingwide, vsgloik
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 5.7
+* Tested up to: 6.0.1
 * Stable tag: 1.8.4
 * Gutenberg compatible: Yes
 
