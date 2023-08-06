@@ -3,7 +3,7 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: shortcode, obfuscate 
 Requires at least: 3.9
-Tested up to: 6.2
+Tested up to: 6.3
 Stable tag: 1.8.4
 Gutenberg compatible: Yes
 
