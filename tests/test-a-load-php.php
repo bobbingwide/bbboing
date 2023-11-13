@@ -29,7 +29,7 @@ class Tests_load_libs extends BW_UnitTestCase
 	}
 
 	function load_dir_files( $dir ) {
-		$files = glob( '$dir/*.php');
+		$files = glob( "$dir/*.php");
 		foreach ( $files as $file ) {
 			oik_require( $file, 'bbboing');
 		}
