@@ -48,6 +48,7 @@ function bbboing_init() {
  */
 function bbboing_oik_loaded() { 
 	bw_load_plugin_textdomain( "bbboing" );
+	add_action( "oik_add_shortcodes", "bbboing_oik_add_shortcodes" );
 }
 
 /**
@@ -89,6 +90,6 @@ function bbboing_activation() {
 function bbboing_plugin_loaded() {
 	add_action( "init", "bbboing_init" );
 	add_action( "oik_loaded", "bbboing_oik_loaded" );
-	add_action( "oik_add_shortcodes", "bbboing_oik_add_shortcodes" );
+
 	add_action( "admin_notices", "bbboing_activation" );
 }
