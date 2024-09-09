@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.067349">
-    <testsuite name="bbboing" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.067349">
-      <testsuite name="Tests_load_libs" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-a-load-php.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.062796">
-        <testcase name="test_load_admin" class="Tests_load_libs" classname="Tests_load_libs" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-a-load-php.php" line="25" assertions="1" time="0.048387"/>
-        <testcase name="test_load_plugin" class="Tests_load_libs" classname="Tests_load_libs" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-a-load-php.php" line="38" assertions="1" time="0.014408"/>
+  <testsuite name="" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.083947">
+    <testsuite name="bbboing" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.083947">
+      <testsuite name="Tests_load_libs" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-a-load-php.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.077715">
+        <testcase name="test_load_admin" class="Tests_load_libs" classname="Tests_load_libs" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-a-load-php.php" line="25" assertions="1" time="0.062896"/>
+        <testcase name="test_load_plugin" class="Tests_load_libs" classname="Tests_load_libs" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-a-load-php.php" line="38" assertions="1" time="0.014819"/>
       </testsuite>
-      <testsuite name="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.004553">
-        <testcase name="test_bbboing_loaded_action_performed" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="34" assertions="1" time="0.000135"/>
-        <testcase name="test_oik_add_shortcodes" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="42" assertions="1" time="0.000069"/>
-        <testcase name="test_bbboing_form_n_both_y" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="59" assertions="1" time="0.002510"/>
-        <testcase name="test_bbboing_form_y" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="68" assertions="1" time="0.001499"/>
-        <testcase name="test_bbboing" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="80" assertions="1" time="0.000340"/>
+      <testsuite name="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.006233">
+        <testcase name="test_bbboing_loaded_action_performed" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="34" assertions="1" time="0.000097"/>
+        <testcase name="test_oik_add_shortcodes" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="42" assertions="1" time="0.000079"/>
+        <testcase name="test_bbboing_form_n_both_y" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="59" assertions="1" time="0.004877"/>
+        <testcase name="test_bbboing_form_y" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="68" assertions="1" time="0.000809"/>
+        <testcase name="test_bbboing" class="Tests_bbboing" classname="Tests_bbboing" file="C:\apache\htdocs\wordpress\wp-content\plugins\bbboing\tests\test-bbboing.php" line="80" assertions="1" time="0.000371"/>
       </testsuite>
     </testsuite>
   </testsuite>
