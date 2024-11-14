@@ -37,7 +37,11 @@ class Tests_bbboing extends WP_UnitTestCase {
 	}
 
 	/**
-	 * Ensure that oik shortcodes can be run
+	 * Ensure that oik shortcodes can be run.
+	 *
+	 * There is a chance that oik_add_shortcodes has already been run more than once!
+	 * eg Once by oik when it's detected a block based theme
+	 * then later by a block based theme which was written before oik v4.14.0
 	 */
 	function test_oik_add_shortcodes() {
 		$performed = did_action( "oik_add_shortcodes" );
