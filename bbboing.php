@@ -4,7 +4,7 @@ Plugin Name: bbboing
 Depends: oik
 Plugin URI: https://www.oik-plugins.com/oik-plugins/bbboing
 Description: obfuscate text but leave it readable, using oik
-Version: 1.8.6
+Version: 1.8.7
 Author: bobbingwide
 Author URI: https://bobbingwide.com/about-bobbing-wide
 Text Domain: bbboing

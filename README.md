@@ -4,8 +4,10 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 6.5.1
-* Stable tag: 1.8.6
+* Tested up to: 6.7.1
+* Stable tag: 1.8.7
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Gutenberg compatible: Yes
 
 obfuscate text but leave it readable, apparently
@@ -90,6 +92,9 @@ If you want to read more about oik plugins and themes then please visit [oik-plu
 
 ## Upgrade Notice 
 # 1.8.6 
+Update for support for PHP 8.4
+
+# 1.8.6 
 Update for support for PHP 8.3
 
 # 1.8.5 
@@ -130,6 +135,12 @@ Requires oik version 1.12 or higher
 
 
 ## Changelog 
+# 1.8.7 
+* Changed: Support PHP 8.4 #6
+* Tested: With WordPress 6.7.1 and WordPress Multisite
+* Tested: With PHP 8.3 & PHP 8.4
+* Tested: With PHPUnit 9.6, 10. and 11.4
+
 # 1.8.6 
 * Fixed: Only respond to oik_add_shortcodes after oik_loaded has been run,https://github.com/bobbingwide/bbboing/issues/5
 * Changed: Support PHP 8.3,https://github.com/bobbingwide/bbboing/issues/5
