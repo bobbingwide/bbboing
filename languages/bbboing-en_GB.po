@@ -1,39 +1,39 @@
-# Copyright (C) 2020 bbboing
+# Copyright (C) 2024 bbboing
 # This file is distributed under the same license as the bbboing package.
 msgid ""
 msgstr ""
-"Project-Id-Version: bbboing 1.8.4\n"
+"Project-Id-Version: bbboing 1.8.7\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/bbboing\n"
-"POT-Creation-Date: 2020-12-19 15:45:47+00:00\n"
+"POT-Creation-Date: 2024-12-01 10:50:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 "Language: en_GB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-#: admin/oik-activation.php:29
+#: admin/oik-activation.php:30
 msgid "Install %1$s"
 msgstr "Install %1$s"
 
-#: admin/oik-activation.php:61
+#: admin/oik-activation.php:63
 msgid "Activate %1$s"
 msgstr "Activate %1$s"
 
-#: admin/oik-activation.php:79
+#: admin/oik-activation.php:82
 msgid "Upgrade %1$s"
 msgstr "Upgrade %1$s"
 
-#: admin/oik-activation.php:195
-msgid " version "
-msgstr " version "
+#: admin/oik-activation.php:198
+msgid "version"
+msgstr "version"
 
-#: admin/oik-activation.php:197
+#: admin/oik-activation.php:201
 msgid "%1$s may not be fully functional."
 msgstr "%1$s may not be fully functional."
 
-#: admin/oik-activation.php:199
+#: admin/oik-activation.php:204
 msgid ""
 "Please install and activate the required minimum version of this plugin: %1$s"
 msgstr "Please install and activate the required minimum version of this plugin: %1$s"
