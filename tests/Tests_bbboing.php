@@ -2,8 +2,8 @@
 /**
  * Tests bbboing.
  *
- * @copyright (C) Copyright Bobbing Wide 2016, 2017, 2020
- * @group bbboing
+ * @copyright (C) Copyright Bobbing Wide 2016, 2017, 2020, 2024
+ *
  *
  */
 class Tests_bbboing extends WP_UnitTestCase {
