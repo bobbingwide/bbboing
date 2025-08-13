@@ -4,7 +4,7 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: shortcode, obfuscate
 * Requires at least: 3.9
-* Tested up to: 6.7.1
+* Tested up to: 6.8.2
 * Stable tag: 1.8.7
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -91,6 +91,9 @@ If you want to read more about oik plugins and themes then please visit [oik-plu
 1. Example of [bbboing form=y cols=80 text="some text"]
 
 ## Upgrade Notice 
+# 1.8.7 
+Tested with WordPress 6.8.2, PHPUnit 10 & 11
+
 # 1.8.6 
 Update for support for PHP 8.4
 
@@ -137,9 +140,9 @@ Requires oik version 1.12 or higher
 ## Changelog 
 # 1.8.7 
 * Changed: Support PHP 8.4 #6
-* Tested: With WordPress 6.7.1 and WordPress Multisite
+* Tested: With WordPress 6.8.2 and WordPress Multisite
 * Tested: With PHP 8.3 & PHP 8.4
-* Tested: With PHPUnit 9.6, 10. and 11.4
+* Tested: With PHPUnit 9.6, 10.5 and 11.4
 
 # 1.8.6 
 * Fixed: Only respond to oik_add_shortcodes after oik_loaded has been run,https://github.com/bobbingwide/bbboing/issues/5
