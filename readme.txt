@@ -91,13 +91,10 @@ If you want to read more about oik plugins and themes then please visit [oik-plu
 
 == Upgrade Notice ==
 = 1.8.7 = 
-Tested with WordPress 6.8.2, PHPUnit 10 & 11
+Tested with WordPress 6.8.2, PHP 8.4 and PHPUnit 10 & 11
 
 = 1.8.6 = 
-Update for support for PHP 8.4
-
-= 1.8.6 = 
-Update for support for PHP 8.3 
+Update for support for PHP 8.3
 
 = 1.8.5 =
 Update for support for PHP 8.1 and PHP 8.2
